@@ -1,2 +1,1 @@
-# Microservice-AspNetCore
-Shop App With Microservices
+Whats Including In This Repository
