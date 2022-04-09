@@ -19,3 +19,12 @@ We have implemented below <b> features over the Microservice-AspNetCore reposito
   <li>Publish BasketCheckout Queue with using <b>MassTransit and RabbitMQ</b></li>
 </ul>
 
+## Discount microservice which includes;
+<ul>
+  <li>ASP.NET <b>Grpc Server</b> application</li>
+  <li>Build a Highly Performant <b>inter-service gRPC Communication</b> with Basket Microservice</li>
+  <li>Exposing Grpc Services with creating <b>Protobuf messages</b></li>
+  <li>Using <b>Dapper for micro-orm implementation</b> to simplify data access and ensure high performance</li>
+  <li><b>PostgreSQL database</b> connection and containerization</li>
+</ul>
+
