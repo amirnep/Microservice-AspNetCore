@@ -86,3 +86,13 @@ We have implemented below <b> features over the Microservice-AspNetCore reposito
   <li>Containerization of databases</li>
   <li>Override Environment variables</li>
 </ul>
+
+## Run The Project
+You will need the following tools:
+<ul>
+  <li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019 or Later</a></li>
+  <li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/5">.Net Core 5 or later</a></li>
+  <li><a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a></li>
+</ul>
+
+<h3> Installing </h3>
