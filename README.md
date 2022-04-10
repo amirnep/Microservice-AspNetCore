@@ -47,4 +47,36 @@ We have implemented below <b> features over the Microservice-AspNetCore reposito
   <li>Using <b>Entity Framework Core ORM</b> and auto migrate to SqlServer when application startup</li>
 </ul>
 
-## 
+## API Gateway Ocelot Microservice
+<ul>
+  <li>Implement <b>API Gateways with Ocelot</b></li>
+  <li>Sample microservices/containers to reroute through the API Gateways</li>
+  <li>Run multiple different <b>API Gateway/BFF</b> container types</li>
+  <li>The Gateway aggregation pattern in Shopping.Aggregator</li>
+</ul>
+
+## WebUI ShoppingApp Microservice
+<ul>
+  <li>ASP.NET Core Web Application with Bootstrap 4 and Razor template</li>
+  <li>Call <b>Ocelot APIs with HttpClientFactory and Polly</b></li>
+</ul>
+
+## Microservices Cross-Cutting Implementations
+<ul>
+  <li>Implementing <b>Centralized Distributed Logging with Elastic Stack (ELK); Elasticsearch, Logstash, Kibana and SeriLog</b> for Microservices</li>
+  <li>Use the <b>HealthChecks</b> feature in back-end ASP.NET microservices</li>
+  <li>Using <b>Watchdog</b> in separate service that can watch health and load across services, and report health about the microservices by querying with the HealthChecks</li>
+</ul>
+
+## Microservices Resilience Implementations
+<ul>
+  <li>Making Microservices more <b>resilient Use IHttpClientFactory</b> to implement resilient HTTP requests</li>
+  <li>Implement <b>Retry and Circuit Breaker patterns</b> with exponential backoff with IHttpClientFactory and <b>Polly policies</b></li>
+</ul>
+
+## Ancillary Containers
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
