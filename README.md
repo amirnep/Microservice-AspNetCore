@@ -122,6 +122,12 @@ Follow these steps to get your development environment set up: (Before Run Start
       <li>Kibana -> <a href="http://host.docker.internal:5601">http://host.docker.internal:5601</a></li>
       <li>Web Status -> <a href="http://host.docker.internal:8007">http://host.docker.internal:8007</a></li>
       <li>Web UI -> <a href="http://host.docker.internal:8006">http://host.docker.internal:8006</a></li>
-</ul>
-  <li>Coffee</li>
+    </ul>
+  <li>Launch <a href="http://host.docker.internal:8007 ">http://host.docker.internal:8007</a> in your browser to view the Web Status. Make sure that every microservices are healthy.</li>
+  <li>Launch <a href="http://host.docker.internal:8006">http://host.docker.internal:8006</a> in your browser to view the Web UI. You can use Web project in order to <b>call microservices over API Gateway</b>. When you <b>checkout the basket</b> you can follow <b>queue record on RabbitMQ dashboard</b>.</li>
 </ol>
+
+## Authors
+<ul>
+  <li>Amir Nematpour</li>
+</ul>
