@@ -105,12 +105,8 @@ Follow these steps to get your development environment set up: (Before Run Start
         <li>CPU: 2</li>
       </ul>
   <li>At the root directory which include </b>docker-compose.yml</b> files, run below command:</li>
-  ```bash
-      docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-  ```
+      <pre><span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span> <span class="pl-k">-</span><span class="pl-smi">f</span>         <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">yml</span> <span class="pl-k">-</span><span       class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">override</span>.         <span class="pl-smi">yml</span> <span class="pl-smi">up</span> <span class="pl-k">-</span><span class="pl-smi">d</span></pre>
   <li>Wait for docker compose all microservices. That’s it! (some microservices need extra time to work so please wait if not worked in first shut)</li>
   <li>You can <b>launch microservices</b> as below urls:</li>
   <li>Coffee</li>
 </ol>
-
-<pre><span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">yml</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">override</span>.<span class="pl-smi">yml</span> <span class="pl-smi">up</span> <span class="pl-k">-</span><span class="pl-smi">d</span></pre>
