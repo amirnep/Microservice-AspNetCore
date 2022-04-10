@@ -100,10 +100,10 @@ Follow these steps to get your development environment set up: (Before Run Start
 <ol type="1">
   <li>Clone the repository</li>
   <li>Once Docker for Windows is installed, go to the <b>Settings > Advanced option</b>, from the Docker icon in the system tray, to configure the minimum amount of memory and CPU like so:</li>
-      <ol>
+      <ul>
         <li><b>Memory: 4 GB</b></li>
         <li>CPU: 2</li>
-      </ol>
+      </ul>
   <li>At the root directory which include </b>docker-compose.yml</b> files, run below command:</li>
   ```bash
       docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
@@ -112,3 +112,5 @@ Follow these steps to get your development environment set up: (Before Run Start
   <li>You can <b>launch microservices</b> as below urls:</li>
   <li>Coffee</li>
 </ol>
+
+<pre><span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">yml</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">override</span>.<span class="pl-smi">yml</span> <span class="pl-smi">up</span> <span class="pl-k">-</span><span class="pl-smi">d</span></pre>
