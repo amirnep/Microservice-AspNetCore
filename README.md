@@ -2,6 +2,8 @@ See the overall picture of <b>implementations on microservices with .net tools</
 
 <img src="https://user-images.githubusercontent.com/1147445/110304529-c5b70180-800c-11eb-832b-a2751b5bda76.png" alt="Microservices AspNetCore">
 
+There is a couple of microservices which implemented <b>e-commerce</b> modules over <b>Catalog, Basket, Discount</b> and <b>Ordering</b> microservices with <b>NoSQL (MongoDB, Redis)</b> and <b>Relational databases (PostgreSQL, Sql Server)</b> with communicating over <b>RabbitMQ Event Driven Communication</b> and using <b>Ocelot API Gateway</b>.
+
 # Whats Including In This Repository
 We have implemented below <b> features over the Microservice-AspNetCore repository. </b>
 
