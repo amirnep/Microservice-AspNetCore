@@ -108,5 +108,20 @@ Follow these steps to get your development environment set up: (Before Run Start
 <pre><span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">yml</span> <span class="pl-k">-</span><span class="pl-smi">f</span> <span class="pl-smi">docker</span><span class="pl-k">-</span><span class="pl-smi">compose</span>.<span class="pl-smi">override</span>.<span class="pl-smi">yml</span> <span class="pl-smi">up</span> <span class="pl-k">-</span><span class="pl-smi">d</span></pre>
   <li>Wait for docker compose all microservices. That’s it! (some microservices need extra time to work so please wait if not worked in first shut)</li>
   <li>You can <b>launch microservices</b> as below urls:</li>
+    <ul>
+      <li>Catalog API -> <a href="http://host.docker.internal:8000/swagger/index.html">http://host.docker.internal:8000/swagger/index.html</a></li>
+      <li>Basket API -> <a href="http://host.docker.internal:8001/swagger/index.html">http://host.docker.internal:8001/swagger/index.html</a></li>
+      <li>Discount API -> <a href="http://host.docker.internal:8002/swagger/index.html">http://host.docker.internal:8002/swagger/index.html</a></li>
+      <li>Ordering API -> <a href="http://host.docker.internal:8004/swagger/index.html">http://host.docker.internal:8004/swagger/index.html</a></li>
+      <li>Shopping.Aggregator -> <a href="http://host.docker.internal:8005/swagger/index.html">http://host.docker.internal:8005/swagger/index.html</a></li>
+      <li>API Gateway -> <a href="http://host.docker.internal:8010/Catalog">http://host.docker.internal:8010/Catalog</a></li>
+      <li>Rabbit Management Dashboard -> <a href="http://host.docker.internal:15672">http://host.docker.internal:15672</a> -- guest/guest</li>
+      <li>Portainer -> <a href="http://host.docker.internal:9000">http://host.docker.internal:9000</a> -- admin/admin1234</li>
+      <li>pgAdmin PostgreSQL -> <a href="http://host.docker.internal:5050">http://host.docker.internal:5050</a> -- a.nematpour.79@gmail.com/admin1234</li>
+      <li>Elasticsearch -> <a href="http://host.docker.internal:9200">http://host.docker.internal:9200</a></li>
+      <li>Kibana -> <a href="http://host.docker.internal:5601">http://host.docker.internal:5601</a></li>
+      <li>Web Status -> <a href="http://host.docker.internal:8007">http://host.docker.internal:8007</a></li>
+      <li>Web UI -> <a href="http://host.docker.internal:8006">http://host.docker.internal:8006</a></li>
+</ul>
   <li>Coffee</li>
 </ol>
