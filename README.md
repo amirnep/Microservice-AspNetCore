@@ -91,8 +91,24 @@ We have implemented below <b> features over the Microservice-AspNetCore reposito
 You will need the following tools:
 <ul>
   <li><a href="https://visualstudio.microsoft.com/downloads/">Visual Studio 2019 or Later</a></li>
-  <li><a href="https://dotnet.microsoft.com/en-us/download/dotnet/5">.Net Core 5 or later</a></li>
+  <li><a href="https://dotnet.microsoft.com/en-us/download/dotnet">.Net Core 5 or later</a></li>
   <li><a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a></li>
 </ul>
 
 <h3> Installing </h3>
+Follow these steps to get your development environment set up: (Before Run Start the Docker Desktop)
+<ol type="1">
+  <li>Clone the repository</li>
+  <li>Once Docker for Windows is installed, go to the <b>Settings > Advanced option</b>, from the Docker icon in the system tray, to configure the minimum amount of memory and CPU like so:</li>
+      <ol>
+        <li><b>Memory: 4 GB</b></li>
+        <li>CPU: 2</li>
+      </ol>
+  <li>At the root directory which include </b>docker-compose.yml</b> files, run below command:</li>
+  ```bash
+      docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+  ```
+  <li>Wait for docker compose all microservices. That’s it! (some microservices need extra time to work so please wait if not worked in first shut)</li>
+  <li>You can <b>launch microservices</b> as below urls:</li>
+  <li>Coffee</li>
+</ol>
