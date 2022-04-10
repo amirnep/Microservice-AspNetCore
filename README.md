@@ -76,7 +76,13 @@ We have implemented below <b> features over the Microservice-AspNetCore reposito
 
 ## Ancillary Containers
 <ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
+  <li>Use <b>Portainer</b> for Container lightweight management UI which allows you to easily manage your different Docker environments</li>
+  <li><b>pgAdmin PostgreSQL Tools</b> feature rich Open Source administration and development platform for PostgreSQL</li>
+</ul>
+
+## Docker Compose establishment with all microservices on docker;
+<ul>
+  <li>Containerization of microservices</li>
+  <li>Containerization of databases</li>
+  <li>Override Environment variables</li>
 </ul>
