@@ -84,6 +84,7 @@ namespace AspnetRunBasics
                 });
             });
         }
+
         private static IAsyncPolicy<HttpResponseMessage> GetRetryPolicy()
         {
             // In this case will wait for
